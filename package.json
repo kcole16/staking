@@ -1,0 +1,64 @@
+{
+  "name": "near-staking-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.6",
+    "@mui/lab": "^5.0.0-alpha.141",
+    "@mui/material": "^5.14.6",
+    "@mui/x-date-pickers": "^6.12.0",
+    "@near-wallet-selector/core": "^8.5.1",
+    "@near-wallet-selector/ledger": "^8.5.1",
+    "@near-wallet-selector/modal-ui-js": "^8.5.1",
+    "@near-wallet-selector/my-near-wallet": "^8.5.1",
+    "@near-wallet-selector/near-wallet": "^8.5.1",
+    "@near-wallet-selector/wallet-connect": "^8.5.1",
+    "@zip.js/zip.js": "^2.7.27",
+    "chart.js": "^4.4.0",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "dayjs": "^1.11.9",
+    "formik": "^2.4.3",
+    "material-ui-confirm": "^3.0.9",
+    "near-api-js": "^2.1.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.15.0",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build && cp build/index.html build/built-index.html",
+    "deploy:pages": "gh-pages -d build/",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "https-browserify": "^1.0.0",
+    "react-app-rewired": "^2.2.1",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.1"
+  }
+}
+
