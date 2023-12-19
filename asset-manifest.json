@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static/css/main.343f4d2c.css",
+    "main.js": "/static/js/main.274de67f.js",
+    "static/js/544.3c8ae21a.chunk.js": "/static/js/544.3c8ae21a.chunk.js",
+    "static/media/my-near-wallet-icon.png": "/static/media/my-near-wallet-icon.21577bc85de47e042ffc.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.343f4d2c.css",
+    "static/js/main.274de67f.js"
+  ]
+}
